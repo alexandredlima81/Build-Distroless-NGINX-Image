@@ -125,6 +125,8 @@ https://console.cloud.google.com/artifacts/docker/distroless/us/gcr.io?pli=1
 
 https://edu.chainguard.dev/chainguard/chainguard-images/getting-started-distroless/
 
+https://www.redhat.com/en/blog/why-distroless-containers-arent-security-solution-you-think-they-are
+
 https://www.docker.com/blog/is-your-container-image-really-distroless/
 
 https://juniorjbn.medium.com/o-que-%C3%A9-esse-tal-de-distroless-d1cc5dcd070e
