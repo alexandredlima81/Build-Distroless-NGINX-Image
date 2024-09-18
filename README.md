@@ -18,7 +18,7 @@ No segundo estágio, utilizamos a imagem Distroless baseada no Debian para garan
 
 ```dockerfile
 # Stage 2: Use Distroless as the base for the final image
-FROM gcr.io/distroless/base-debian10
+FROM gcr.io/distroless/base-debian12
 ```
 Copiamos os binários do NGINX e os arquivos de configuração do estágio anterior:
 
