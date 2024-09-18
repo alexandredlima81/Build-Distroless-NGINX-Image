@@ -63,9 +63,9 @@ Agora o NGINX estará rodando no seu container e estará acessível em http://lo
 
 Este repositório inclui uma pipeline de CI com o GitHub Actions que automaticamente:
 
-Realiza o build da imagem Docker.
-Realiza o push da imagem para o Docker Hub.
-Para configurar o pipeline, certifique-se de adicionar as seguintes variáveis de GitHub Secrets ao seu repositório:
+> Realiza o build da imagem Docker.
+> Realiza o push da imagem para o Docker Hub.
+> Para configurar o pipeline, certifique-se de adicionar as seguintes variáveis de GitHub Secrets ao seu repositório:
 
 DOCKER_USERNAME: Seu nome de usuário no DockerHub.
 DOCKER_PASSWORD: Sua senha ou token de acesso ao DockerHub.
