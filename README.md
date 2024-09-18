@@ -68,7 +68,7 @@ Este repositório inclui uma pipeline de CI com o GitHub Actions que automaticam
    
 Para configurar o pipeline, certifique-se de adicionar as seguintes variáveis de GitHub Secrets ao seu repositório:
 >
-> {c:red}**DOCKER_USERNAME:**{/c} Seu nome de usuário no DockerHub.
+{c:red} **DOCKER_USERNAME:** {/c} Seu nome de usuário no DockerHub.
 >
 > DOCKER_PASSWORD: Sua senha ou token de acesso ao DockerHub.
 >
