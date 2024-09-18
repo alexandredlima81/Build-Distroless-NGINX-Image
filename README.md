@@ -124,3 +124,5 @@ https://portal.revendadesoftware.com.br/manuais/base-de-conhecimento/sintaxe-mar
 https://console.cloud.google.com/artifacts/docker/distroless/us/gcr.io?pli=1
 
 https://edu.chainguard.dev/chainguard/chainguard-images/getting-started-distroless/
+
+https://www.docker.com/blog/is-your-container-image-really-distroless/
