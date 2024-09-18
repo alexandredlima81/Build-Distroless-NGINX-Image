@@ -59,7 +59,8 @@ docker run -d -p 8080:80 seu-usuario/nginx-distroless:latest
 ```
 Agora o NGINX estará rodando no seu container e estará acessível em http://localhost:8080.
 
-### Pipeline de CI com GitHub Actions
+## Pipeline de CI com GitHub Actions
+
 Este repositório inclui uma pipeline de CI com o GitHub Actions que automaticamente:
 
 Realiza o build da imagem Docker.
