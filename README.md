@@ -36,28 +36,29 @@ EXPOSE 80
 # Start NGINX
 CMD ["nginx", "-g", "daemon off;"]
 ```
-Como Construir a Imagem
+### Como Construir a Imagem
 Siga os passos abaixo para construir a imagem Docker:
 
 Clone o repositório:
 
-bash
-Copy code
+```bash
+
 git clone https://github.com/seu-usuario/distroless-nginx.git
 cd distroless-nginx
+```
 Construa a imagem Docker:
 
-bash
-Copy code
+```bash
 docker build -t seu-usuario/nginx-distroless:latest .
+```
 Execute a imagem:
 
-bash
-Copy code
+```bash
 docker run -d -p 8080:80 seu-usuario/nginx-distroless:latest
+```
 Agora o NGINX estará rodando no seu container e estará acessível em http://localhost:8080.
 
-Pipeline de CI com GitHub Actions
+### Pipeline de CI com GitHub Actions
 Este repositório inclui uma pipeline de CI com o GitHub Actions que automaticamente:
 
 Realiza o build da imagem Docker.
