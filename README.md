@@ -106,4 +106,5 @@ jobs:
 ## Vantagens do Uso de Distroless
 
 **Segurança:** A imagem Distroless é minimalista e não contém pacotes ou bibliotecas desnecessárias, reduzindo a superfície de ataque.
+
 **Tamanho da Imagem:** A imagem resultante é muito menor do que uma imagem de NGINX tradicional, economizando espaço e melhorando os tempos de download e deploy.
