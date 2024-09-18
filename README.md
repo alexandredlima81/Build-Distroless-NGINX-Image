@@ -63,15 +63,14 @@ Agora o NGINX estará rodando no seu container e estará acessível em http://lo
 
 Este repositório inclui uma pipeline de CI com o GitHub Actions que automaticamente:
 
-> Realiza o build da imagem Docker.
-> Realiza o push da imagem para o Docker Hub.
-> Para configurar o pipeline, certifique-se de adicionar as seguintes variáveis de GitHub Secrets ao seu repositório:
+1. Realiza o build da imagem Docker.
+2. Realiza o push da imagem para o Docker Hub.
+3. Para configurar o pipeline, certifique-se de adicionar as seguintes variáveis de GitHub Secrets ao seu repositório:
 
 DOCKER_USERNAME: Seu nome de usuário no DockerHub.
 DOCKER_PASSWORD: Sua senha ou token de acesso ao DockerHub.
 Exemplo de Pipeline
-yaml
-Copy code
+```yaml
 name: Build and Push Docker Image
 
 on:
@@ -103,6 +102,8 @@ jobs:
       - name: Push Docker image
         run: |
           docker push ${{ secrets.DOCKER_USERNAME }}/nginx-distroless:latest
+```
+
 ## Vantagens do Uso de Distroless
 
 > **Segurança:** A imagem Distroless é minimalista e não contém pacotes ou bibliotecas desnecessárias, reduzindo a superfície de ataque.
