@@ -11,6 +11,7 @@ No primeiro estágio, utilizamos a imagem oficial do NGINX em sua versão **alpi
 ```dockerfile
 # Stage 1: Use an official NGINX image to extract binaries
 FROM nginx:alpine as nginx-build
+```
 
-Stage 2: Distroless Final Image
+### Stage 2: Distroless Final Image
 No segundo estágio, utilizamos a imagem Distroless baseada no Debian para garantir que a imagem final seja o mais enxuta e segura possível:
