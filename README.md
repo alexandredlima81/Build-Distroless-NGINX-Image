@@ -36,7 +36,8 @@ EXPOSE 80
 # Start NGINX
 CMD ["nginx", "-g", "daemon off;"]
 ```
-### Como Construir a Imagem
+## Como Construir a Imagem
+
 Siga os passos abaixo para construir a imagem Docker:
 
 Clone o repositório:
