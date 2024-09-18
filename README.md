@@ -111,6 +111,16 @@ jobs:
 
 ## Vantagens do Uso de Distroless
 
-> **Segurança:** A imagem Distroless é minimalista e não contém pacotes ou bibliotecas desnecessárias, reduzindo a superfície de ataque.
+**Segurança:** A imagem Distroless é minimalista e não contém pacotes ou bibliotecas desnecessárias, reduzindo a superfície de ataque.
 
-> **Tamanho da Imagem:** A imagem resultante é muito menor do que uma imagem de NGINX tradicional, economizando espaço e melhorando os tempos de download e deploy.
+**Tamanho da Imagem:** A imagem resultante é muito menor do que uma imagem de NGINX tradicional, economizando espaço e melhorando os tempos de download e deploy.
+
+## Links úteis
+
+https://markdown.net.br/sintaxe-basica/
+
+https://portal.revendadesoftware.com.br/manuais/base-de-conhecimento/sintaxe-markdown
+
+https://console.cloud.google.com/artifacts/docker/distroless/us/gcr.io?pli=1
+
+https://edu.chainguard.dev/chainguard/chainguard-images/getting-started-distroless/
