@@ -65,11 +65,14 @@ Este repositório inclui uma pipeline de CI com o GitHub Actions que automaticam
 
 1. Realiza o build da imagem Docker.
 2. Realiza o push da imagem para o Docker Hub.
-3. Para configurar o pipeline, certifique-se de adicionar as seguintes variáveis de GitHub Secrets ao seu repositório:
+> Para configurar o pipeline, certifique-se de adicionar as seguintes variáveis de GitHub Secrets ao seu repositório:
+>
+> DOCKER_USERNAME: Seu nome de usuário no DockerHub.
+>
+> DOCKER_PASSWORD: Sua senha ou token de acesso ao DockerHub.
 
-DOCKER_USERNAME: Seu nome de usuário no DockerHub.
-DOCKER_PASSWORD: Sua senha ou token de acesso ao DockerHub.
 Exemplo de Pipeline
+
 ```yaml
 name: Build and Push Docker Image
 
